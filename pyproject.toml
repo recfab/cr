@@ -1,0 +1,17 @@
+[project]
+name = "cr"
+version = "0.0.0"
+description = "Clinical Research Compendium"
+requires-python = ">=3.14"
+
+[dependency-groups]
+docs = [
+    "sphinx",
+    "myst-parser",
+    "sphinx-book-theme",
+    "sphinx-autobuild",
+]
+
+[tool.uv]
+package = false
+default-groups = ["docs"]
